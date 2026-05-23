@@ -23,6 +23,7 @@
 - Make (optional)
 
 ### Build & Run
+- Before Executing Run this - [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
 
 ```bash
 # Clone repository
