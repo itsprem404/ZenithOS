@@ -1,0 +1,17 @@
+build/
+*.o
+*.exe
+zenithos
+zenithos.exe
+
+.vscode/*
+!.vscode/tasks.json
+!.vscode/launch.json
+
+.DS_Store
+Thumbs.db
+
+*.log
+*~
+*.tmp
+*.temp

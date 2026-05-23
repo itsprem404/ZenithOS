@@ -1,0 +1,26 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build ZenithOS",
+            "type": "shell",
+            "command": "C:/MinGW/bin/g++.exe",
+            "args": [
+                "-std=c++17",
+                "-Wall",
+                "-g",
+                "-Iinclude",
+                "src/*.cpp",
+                "-o",
+                "zenithos.exe"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [
+                "$gcc"
+            ]
+        }
+    ]
+}
